@@ -9,11 +9,7 @@ body {
 
 .top-bar {
   /* background: #008a28; */
-  background: linear-gradient(
-    90deg,
-    rgba(0, 138, 40, 1) 35%,
-    rgba(31, 175, 64, 1) 100%
-  );
+background: linear-gradient(90deg, rgba(47,47,47,0.9587185215883228) 35%, rgba(31,175,64,1) 100%);
   height: 2.8rem;
   padding: 0.5rem 0;
 }
@@ -57,12 +53,15 @@ body {
 
 #carousel {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  
 }
 
 .carousel-inner {
   max-height: 38rem !important;
-  /* object-fit: cover;
-  object-position: 15%; */
+  /* object-fit: cover !important;
+  height: 100%;
+  width: auto; */
+  
 }
 
 /*---Change Carousel Transition Speed --*/
@@ -71,6 +70,7 @@ body {
 .carousel-item-prev,
 .carousel-item.active {
   transition: transform 1.2s ease;
+  
 }
 
 /*-- Carousel Content --*/
@@ -79,6 +79,36 @@ body {
   top: 54%;
   transform: translateY(-50%);
   text-transform: uppercase;
+}
+
+.bg-custom {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.carousel-caption h1 {
+  font-size: 2.8rem;
+  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
+}
+
+.border-primary {
+  border-top: .2rem solid #008a28!important ;
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 1);
+}
+
+.btn-lg{
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width: medium;
+  background-color: #008a28;
+  border-color: #008a28;
 }
 
 /*===== FIXED BACKGROUND IMG =====*/
