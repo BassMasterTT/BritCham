@@ -120,8 +120,9 @@ span {
 }
 .pic,
 .mp4 {
-  height: 300px;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
 }
 
 .container {
