@@ -58,7 +58,6 @@ span {
   font-weight: 600;
 }
 
-
 /*============= CAROUSEL =============*/
 
 #carousel {
@@ -119,14 +118,15 @@ span {
   background-color: #008a28;
   border-color: #008a28;
 }
- .pic, .mp4 {
-   height: 350px;
-   object-fit: cover;
- }
+.pic,
+.mp4 {
+  height: 300px;
+  object-fit: cover;
+}
 
- .container {
-   justify-content: space-between;
- }
+.container {
+  justify-content: space-between;
+}
 
 /*===== FIXED BACKGROUND IMG =====*/
 
