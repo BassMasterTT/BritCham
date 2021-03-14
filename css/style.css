@@ -53,14 +53,11 @@ body {
   color: #008a28 !important;
 }
 
-span{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
 }
 
-.embed-responsive-item {
-  
-}
 
 /*============= CAROUSEL =============*/
 
@@ -122,8 +119,14 @@ span{
   background-color: #008a28;
   border-color: #008a28;
 }
+ .pic, .mp4 {
+   height: 350px;
+   object-fit: cover;
+ }
 
-
+ .container {
+   justify-content: space-between;
+ }
 
 /*===== FIXED BACKGROUND IMG =====*/
 
