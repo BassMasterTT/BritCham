@@ -128,18 +128,17 @@ span {
   background-color: #008a28;
   border-color: #008a28;
   color: white;
-
 }
 
-.btn-lg:hover{
-  background-image:url("/img/uk_flag.png");
+.btn-lg:hover {
+  background-image: url('/img/uk_flag.png');
   background-size: cover;
   object-fit: cover;
   background-position: 50% 50%;
   color: black;
   text-decoration: none;
   font-weight: 900;
-  
+
   transform: scale(1.1);
 }
 
@@ -245,6 +244,10 @@ span {
 
 .members {
   font-weight: 500;
+}
+
+.logos {
+  cursor: pointer;
 }
 
 /* .container {
