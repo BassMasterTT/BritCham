@@ -1,8 +1,11 @@
 /*-- Body Reset --*/
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: 'Playfair Display', serif;
   color: #616971;
+  /* margin: 0;
+  padding: 0;
+  justify-content: center; */
 }
 
 /*============= TOP BAR HEADER =============*/
