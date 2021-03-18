@@ -272,7 +272,9 @@ span {
 /*-- Emoji Navbar --*/
 
 /*============= FOOTER =============*/
-
+.footer-container {
+  border-radius: 10px;
+}
 /*============= SOCKET =============*/
 
 /*============= MEDIA QUERIES =============*/
