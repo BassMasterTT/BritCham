@@ -14,7 +14,7 @@ body {
   /* background: #008a28; */
   background: linear-gradient(
     90deg,
-    rgba(47, 47, 47, 0.9587185215883228) 35%,
+    rgba(95, 91, 91, 0.959) 35%,
     rgba(31, 175, 64, 1) 100%
   );
   height: 2.8rem;
@@ -272,8 +272,46 @@ span {
 /*-- Emoji Navbar --*/
 
 /*============= FOOTER =============*/
-.footer-container {
+
+.britcham_footer {
   border-radius: 10px;
+  /* background-color: rgba(0, 0, 0, 0.6)!important; */
+background: linear-gradient(
+    90deg,
+    rgba(95, 91, 91, 0.959) 65%,
+    rgba(31, 175, 64, 1) 100%
+  );
+} 
+.text_bccm {
+  font-size: 3rem;
+  color: whitesmoke!important;
+}
+
+#telephone{
+  text-decoration: none;
+  color: white;
+}
+
+#fax {
+
+  text-decoration: none;
+  color: white;
+}
+
+#email {
+  text-decoration: none;
+  color: white;
+}
+
+.inside_footer{
+  border-radius: 10px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #43474b;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*============= SOCKET =============*/
 
