@@ -258,6 +258,17 @@ span {
   overflow: hidden; /*-- Correction for iOS --*/
 }
 
+.fixed {
+  background-image: url('../img/london.jpg');
+  position: fixed;
+}
+
+.fixed-background {
+  padding: 10rem 0;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
 /*-- Emoji Navbar --*/
 
 /*============= FOOTER =============*/
