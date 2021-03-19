@@ -266,6 +266,12 @@ background: linear-gradient(
     rgba(31, 175, 64, 1) 100%
   );
 } 
+
+#bbam-logo-big{
+  height: fit-content!important;
+  width: 200px;
+}
+
 .text_bccm {
   font-size: 3rem;
   color: whitesmoke!important;
