@@ -269,7 +269,8 @@ background: linear-gradient(
 
 #bbam-logo-big{
   height: fit-content!important;
-  width: 200px;
+  width: 200px!important;
+  object-fit: cover;
 }
 
 .text_bccm {
