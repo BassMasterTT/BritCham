@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 /*-- Body Reset --*/
 body {
   font-family: 'Playfair Display', serif;
@@ -7,11 +9,20 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-  background: linear-gradient(
-    90deg,
-    rgba(95, 91, 91, 0.959) 35%,
-    rgba(31, 175, 64, 1) 100%
+  background: #010200;
+  background: -moz-linear-gradient(
+    -45deg,
+    #010200 0%,
+    #16a412 49%,
+    #008a28 100%
   );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #010200 0%,
+    #16a412 49%,
+    #008a28 100%
+  );
+  background: linear-gradient(135deg, #010200 0%, #16a412 49%, #008a28 100%);
   height: 2.8rem;
   padding: 0.5rem 0;
 }
@@ -260,17 +271,26 @@ span {
 .britcham_footer {
   border-radius: 10px;
   /* background-color: rgba(0, 0, 0, 0.6)!important; */
-background: linear-gradient(
-    90deg,
-    rgba(95, 91, 91, 0.959) 65%,
-    rgba(31, 175, 64, 1) 100%
+  background: #010200;
+  background: -moz-linear-gradient(
+    -45deg,
+    #010200 0%,
+    #16a412 49%,
+    #008a28 100%
   );
-} 
+  background: -webkit-linear-gradient(
+    -45deg,
+    #010200 0%,
+    #16a412 49%,
+    #008a28 100%
+  );
+  background: linear-gradient(135deg, #010200 0%, #16a412 49%, #008a28 100%);
+}
 
-#bbam-logo-big{
-  height: fit-content!important;
-  width: auto!important;
-  height: 200px!important;
+#bbam-logo-big {
+  height: fit-content !important;
+  width: auto !important;
+  height: 200px !important;
   object-fit: cover;
   background-color: white;
   padding: 1rem;
@@ -280,10 +300,10 @@ background: linear-gradient(
 
 .text_bccm {
   font-size: 3rem;
-  color: whitesmoke!important;
+  color: whitesmoke !important;
 }
 
-#telephone{
+#telephone {
   text-decoration: none;
   color: white;
 }
@@ -298,7 +318,7 @@ background: linear-gradient(
   color: white;
 }
 
-.inside_footer{
+.inside_footer {
   border-radius: 10px;
 }
 
@@ -306,7 +326,7 @@ h6 {
   font-weight: 500;
   font-size: 1.2rem;
   color: #43474b;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .bi {
@@ -314,10 +334,27 @@ h6 {
   /* background-color: #43474b; */
 }
 
-.ul{
+.ul {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+#facebook, #linkedin, #youtube{
+  text-decoration: none;
+}
+
+#copyright {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+span {
+  text-decoration: none !important;
 }
 /*============= SOCKET =============*/
 
@@ -328,6 +365,13 @@ h6 {
 }
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
+}
+
+/* About.html */
+
+.h5_about {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
