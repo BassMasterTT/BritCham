@@ -323,6 +323,11 @@ span {
   border-radius: 10px;
 }
 
+.about-us {
+  text-decoration: none!important;
+  color: #43474b!important;
+}
+
 h6 {
   font-weight: 500;
   font-size: 1.2rem;
@@ -348,6 +353,10 @@ h6 {
 #copyright {
   cursor: pointer;
   text-decoration: none !important;
+}
+
+i {
+  font-size: 3rem!important;
 }
 
 /*============= SOCKET =============*/
