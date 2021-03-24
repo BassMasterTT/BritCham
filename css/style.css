@@ -75,10 +75,10 @@ i.social-top{
   padding: 0.5rem;
 }
 
-.nav-item:hover {
+/* .nav-item:hover {
   transform: scale(1.1);
   transition-duration: 0.4s;
-}
+} */
 
 .nav-link {
   color: rgba(47, 47, 47, 0.9587185215883228) !important ;
