@@ -424,6 +424,11 @@ i.social-footer {
 
 /* CSR */
 
+.list-group {
+  border: none;
+  text-decoration: none;
+}
+
 
 /* End CSR */
 
