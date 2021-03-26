@@ -212,6 +212,7 @@ span {
   margin: 0;
 }
 
+
 .cards:hover {
   transform: scale(1.1);
   transition-duration: 1s;
@@ -336,6 +337,11 @@ background: linear-gradient(135deg, #1EE018 0%, #008A28 50%, #1EE018 100%); */
 .about-us {
   text-decoration: none !important;
   color: #43474b !important;
+}
+
+.footer-text {
+  /* text-decoration: none!important; */
+  color: #43474b!important;
 }
 
 h6 {
