@@ -4,17 +4,13 @@
 /*-- Body Reset --*/
 body {
   font-family: 'Playfair Display', serif;
-  /* color: #616971; */
 }
 
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
   background-color: #5db64b;
-  /* background: #1EE018;
-background: -moz-linear-gradient(-45deg, #1EE018 0%, #008A28 50%, #1EE018 100%);
-background: -webkit-linear-gradient(-45deg, #1EE018 0%, #008A28 50%, #1EE018 100%);
-background: linear-gradient(135deg, #1EE018 0%, #008A28 50%, #1EE018 100%); */
+
   height: 3.2rem;
   padding: 0.5rem 0;
   align-items: center;
@@ -26,13 +22,6 @@ i.social-top {
   align-items: center !important;
 }
 
-/* #facebook2,
-#linkedin2,
-#youtube2 {
-  font-size: 0.6rem!important;
-  margin: 0;
-} */
-
 .top-bar a {
   color: whitesmoke;
   text-decoration: none;
@@ -41,20 +30,11 @@ i.social-top {
   letter-spacing: 0.07rem;
 }
 
-/* .top-bar:hover {
-  transform: scale(1.1);
-  transition-duration: 0.6s;
-} */
-
 /*============= NAVIGATION =============*/
 
 .navbar-brand img {
   height: 3rem;
 }
-
-/* nav.navbar {
-  height: 4rem;
-} */
 
 .navbar-brand:hover {
   transform: scale(1.1);
@@ -74,11 +54,6 @@ i.social-top {
 .nav-item {
   padding: 0.5rem;
 }
-
-/* .nav-item:hover {
-  transform: scale(1.1);
-  transition-duration: 0.4s;
-} */
 
 .nav-link {
   color: rgba(47, 47, 47, 0.9587185215883228) !important ;
@@ -212,7 +187,6 @@ span {
   margin: 0;
 }
 
-
 .cards:hover {
   transform: scale(1.1);
   transition-duration: 1s;
@@ -245,6 +219,7 @@ span {
 
 .p_card {
   font-size: large;
+
   font-weight: 400;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -341,7 +316,7 @@ background: linear-gradient(135deg, #1EE018 0%, #008A28 50%, #1EE018 100%); */
 
 .footer-text {
   /* text-decoration: none!important; */
-  color: #43474b!important;
+  color: #43474b !important;
 }
 
 h6 {
