@@ -260,17 +260,9 @@ span {
   margin-bottom: 2rem;
 }
 
-/*-- Emoji Navbar --*/
-
 /*============= FOOTER =============*/
 
 .britcham_footer {
-  /* border-radius: 10px; */
-  /* background-color: rgba(0, 0, 0, 0.6)!important; */
-  /* background: #1EE018;
-background: -moz-linear-gradient(-45deg, #1EE018 0%, #008A28 50%, #1EE018 100%);
-background: -webkit-linear-gradient(-45deg, #1EE018 0%, #008A28 50%, #1EE018 100%);
-background: linear-gradient(135deg, #1EE018 0%, #008A28 50%, #1EE018 100%); */
   background: #5db64b !important;
 }
 
@@ -287,22 +279,22 @@ background: linear-gradient(135deg, #1EE018 0%, #008A28 50%, #1EE018 100%); */
 
 .text_bccm {
   font-size: 3rem;
-  color: whitesmoke;
+  color: #fff;
 }
 
 #telephone {
   text-decoration: none;
-  color: whitesmoke;
+  color: #fff;
 }
 
 #fax {
   text-decoration: none;
-  color: whitesmoke;
+  color: #fff;
 }
 
 #email {
   text-decoration: none;
-  color: whitesmoke;
+  color: #fff;
 }
 
 .inside_footer {
@@ -328,7 +320,6 @@ h6 {
 
 .bi {
   font-size: 2rem;
-  /* background-color: #43474b; */
 }
 
 .ul {
