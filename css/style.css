@@ -464,6 +464,14 @@ i.social-footer {
 
 /* End CSR */
 
+/* Form for membership */
+.card_form {
+  height: auto;
+  width: 200px;
+}
+
+/* End Form for membership */
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
