@@ -416,6 +416,27 @@ i.social-footer {
   text-decoration: none;
 }
 
+.card5 {
+  background-image: url('../img/card5.jpg');
+  object-fit: cover;
+  background-size: cover;
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.card6 {
+  background-image: url('../img/card6.jpg');
+  object-fit: cover;
+  background-size: cover;
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+}
 
 /* End Membership.html */
 
