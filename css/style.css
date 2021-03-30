@@ -30,6 +30,12 @@ i.social-top {
   letter-spacing: 0.07rem;
 }
 
+#facebook {
+  text-decoration: none;
+  border: none;
+  color: #fff;
+}
+
 /*============= NAVIGATION =============*/
 
 .navbar-brand img {
